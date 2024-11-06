@@ -1,0 +1,23 @@
+    /*  basic java programming                                            day1
+
+      Java is a high-level, object-oriented programming language developed
+      by Sun Microsystems (now owned by Oracle) and released in 1995.
+      It is designed to be platform-independent, meaning code written
+      in Java can run on any operating system that has a compatible 
+      Java Virtual Machine (JVM). This "write once, run anywhere" 
+      capability is one of Java's key features, achieved through bytecode,
+      an intermediate representation of compiled Java code that
+      can be executed on different platforms.
+*/
+
+
+
+/*
+ public class practice{
+    public static void main(String args[]){
+        System.out.println("hii champ");
+         System.out.println("how are you champ");
+    }
+}
+*/
+
