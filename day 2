@@ -1,0 +1,62 @@
+//java programming                                                          day-2
+
+// Key Features of Java:-
+// Object-Oriented: Everything in Java is based on objects and classes,
+//  making it easier to structure code around real-world concepts.
+
+/* Platform Independence: Java code is compiled into bytecode,
+ which can run on any device with a JVM, regardless of the underlying operating system.
+
+Simple and Readable: Java is relatively easy to read and write compared to many older languages, 
+with a syntax that's familiar to many programmers.
+
+Robust and Secure: Java has strong memory management and security features,
+ reducing errors like memory leaks and providing security mechanisms.
+
+Multithreaded: Java allows for concurrent execution of different parts of a program, 
+which can improve performance.
+
+Automatic Memory Management: Java includes automatic garbage collection, 
+which helps manage memory by deallocating objects that are no longer in use.
+
+
+Applications of Java:-
+
+Java is used in a variety of applications, including:
+
+Web Applications: Many web applications and services use Java on the server side.
+
+Enterprise Software: Java is widely used in large-scale, enterprise-level applications.
+
+Mobile Development: Java is the primary language for Android development.
+
+Embedded Systems: Java can also be found in various embedded devices.
+
+Big Data: Popular frameworks like Apache Hadoop and Apache Spark are built using Java.
+
+
+Java Development Process:-
+
+Write Code: Code is written in .java files.
+
+Compile: Java code is compiled into bytecode using the javac compiler, generating .class files.
+
+Run on JVM: The bytecode is executed by the Java Virtual Machine (JVM),
+ allowing the code to run on any operating system that has a JVM.
+
+Java is known for its stability and extensive libraries,
+ making it a popular choice for enterprise-level applications,
+  Android development, and various other fields.
+*/
+
+
+public class practice{
+    public static void main(String args[]){
+        System.out.println("*****");
+        System.out.println("****");
+        System.out.println("***");
+        System.out.println("**");
+        System.out.println("*");
+    }
+}
+
