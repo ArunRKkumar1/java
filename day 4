@@ -1,0 +1,105 @@
+//Java programming                                               day-4
+
+//nextLong()
+
+Reads a long integer (for larger integer values).
+ Input 1234567890123 → returns long value 1234567890123.
+Example:
+
+import java.util.Scanner;
+public class practice{
+    public static void main(String args []){
+        Scanner sc = new Scanner(System.in);
+        long a = sc.nextLong();
+        System.out.println(a);
+    }
+}
+input = 1234567890123
+output your entered value = 1234567890123
+
+
+
+
+//nextShort()
+Description: Reads the next token as a short data type.
+ It expects input that can be parsed into a short (within the range -32,768 to 32,767).
+ Useful when you want to read a small integer value.
+Example:-
+
+import java.util.Scanner;
+public class practice{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        short a = sc.nextShort();
+        System.out.println("enter desire text : " + a);
+    }
+}
+input  = 123456
+output your entered value = 123456
+
+
+
+
+
+
+//nextByte()
+Description: Reads the next token as a byte data type.
+ It expects input that can be parsed into a byte (within the range -128 to 127).
+ Useful when you only need very small integer values.
+Example:-
+
+import java.util.Scanner;
+public class practice{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        byte a = sc.nextByte();
+        System.out.println("entered value: " + a);
+    }
+}
+input = 123 or 100
+output your entered value = 123 or 100
+
+
+
+
+
+//nextFloat()
+Description: Reads the next token as a float data type.
+ This is useful for decimal numbers with single precision.
+Useful when you need a floating-point number with less precision than double
+Example:-
+
+import java.util.Scanner;
+public class practice{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        float a = sc.nextFloat();
+        System.out.println("Entered value: " + a);
+    }
+}
+input = 123.12
+output your entered value = 123.12
+
+
+
+
+
+
+//next().charAt(0) (for nextChar)
+Description: Java Scanner does not directly support nextChar,
+ so we use next() to read the next token as a String and then use charAt(0)
+  to get the first character.
+Useful when you need to read a single character input from the user.
+Example:-
+
+import java.util.Scanner;
+public class practice{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        char a = sc.next().charAt(0);
+        System.out.println("Entered value: " + a);
+    }
+}
+
+input = AR
+output your entered value = A
