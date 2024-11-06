@@ -1,0 +1,50 @@
+//java programming                                                     day-5
+
+// Sum of two number in java
+
+import java.util.*;
+public class practice{
+    public static void main(String args[]){
+        int a = 10;
+        int b = 20;
+        int sum = a + b;
+        System.out.println("sum");
+    }
+}
+
+
+
+
+
+
+//how to take input from users
+
+import java.util.Scanner;
+public class practice{
+public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int sum = a + b;
+    System.out.println(sum);
+}
+}
+
+
+
+//how to avoid int value
+import java.util.*;
+public class practice{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int a, b, sum;
+        System.out.println("enter desire values: ");
+        a = sc.nextInt();
+        System.out.println("enter desire values: ");
+        b = sc.nextInt();
+
+    
+        sum = a + b;
+        System.out.println("your input values sum: " + sum);
+    }
+}
