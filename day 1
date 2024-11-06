@@ -11,13 +11,13 @@
 */
 
 
+//basic java code for beginners
 
-/*
  public class practice{
     public static void main(String args[]){
         System.out.println("hii champ");
          System.out.println("how are you champ");
     }
 }
-*/
+
 
