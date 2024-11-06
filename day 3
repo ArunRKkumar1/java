@@ -1,0 +1,122 @@
+//java programming                                                                day-3
+//today we will cover this input in java
+
+/*In Java, you can take input from the user using the Scanner class,
+ which is part of the java.util package. Here's a step-by-step example:
+
+Import the Scanner class:
+import java.util.Scanner;
+
+Create a Scanner object:
+You need to create an instance of Scanner and link it to System.in 
+to read from the standard input.
+
+Use the appropriate method for the type of input:
+The Scanner class provides methods like 
+ */
+
+
+
+ //# next()
+
+Reads a single word (until a whitespace) as a String.
+ If you enter "Hello World", next() will read only "Hello".
+Example:
+
+import java.util.*;
+public class practice{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+
+        String name = sc.next();
+        System.out.println(name);
+    }
+}
+
+input = arun kumar
+output your entered value = arun
+
+
+
+
+//nextLine()
+
+Reads the entire line as a String (including spaces).
+If you enter "Hello World", nextLine() will read "Hello World".
+Example: 
+
+ import java.util.*;
+ public class practice{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        System.out.println(name);
+    }
+ }
+input = arun kumar
+output your entered value = arun kumar
+
+
+
+
+
+//nextInt()
+
+Reads an integer (whole number).
+ Input 42 → returns int value 42.
+Example:
+
+import java.util.*;
+public class practice{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println(a);
+
+    }
+}
+input = 123 456
+output your entered value = 123
+
+
+
+
+
+//nextDouble()
+
+Reads a double (decimal number).
+ Input 3.14 → returns double value 3.14.
+Example:
+
+import java.util.*;
+public class practice{
+    public static void main(String args []){
+        Scanner sc = new Scanner(System.in);
+        double b = sc.nextDouble();
+        System.out.println(b);
+    }
+}
+input = 123.123 12
+output your entered value = 123.123
+
+
+
+
+
+//nextBoolean()
+
+Reads a boolean value (true or false).
+ Input true or false → returns boolean value true or false.
+Example:
+
+import java.util.Scanner;
+public class practice{
+    public static void main(String args []){
+        Scanner sc = new Scanner(System.in);
+        boolean value = sc.nextBoolean();
+        System.out.println(value);
+
+    }
+}
+input = true
+output your entered value = true
